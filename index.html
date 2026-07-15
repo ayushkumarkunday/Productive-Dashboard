@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Productive Dashboard</h1>
+        <button id="themeBtn">Dark Mode🌙</button>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h2>🕒Date & Time</h2>
+            <p id="dateTime"></p>
+        </div>
+
+        <div class="card">
+            <h2>📝To-Do-List</h2>
+
+    <input type="text" id="todoInput" placeholder="Enter Task">
+
+    <button id="addTask">Add</button>
+
+    <ul id="todoList"></ul>
+</div>
+            
+        <div class="card">
+            <h2>📅Daily Planner</h2>
+            <textarea
+        id="planner"
+        rows="6"
+        placeholder="Write your daily plan..."></textarea>
+          <button id="savePlan">Save</button>
+        </div>
+
+        <div class="card">
+            <h2> 🎯Daily Goals</h2>
+
+            <input
+        type="text"
+        id="goalInput"
+        placeholder="Enter Goal">
+
+    <button id="addGoal">
+        Add Goal
+    </button>
+
+    <ul id="goalList"></ul>
+            
+        </div>
+
+        <div class="card">
+            <h2>⏳Pomodoro Timer</h2>
+             <h1 id="timer">25:00</h1>
+
+           <button id="startBtn">Start</button>
+           <button id="resetBtn">Reset</button>
+        </div>
+
+        <div class="card">
+            <h2>💬Motivational Quets</h2>
+
+
+    <p id="quote">
+        Loading Quote...
+    </p>
+
+    <button id="newQuote">
+        New Quote
+    </button>
+            
+        </div>
+
+      
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

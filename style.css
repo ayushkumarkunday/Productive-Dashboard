@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.header{
+    background: lightcoral;
+    color: darkorange;
+    padding: 10px 15px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+ header button{
+    background: rgb(93, 83, 83);
+    color: white;
+    font-size: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container{
+   width: 90%;
+    margin: 30px auto;
+    padding: 15px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap: 20px;
+
+}
+.card{
+
+    background:white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px black;
+    min-height: 180px;
+    transition: 0.3s;
+}
+
+.card h2{
+
+
+
+    text-align: center;
+}
+
+header button{
+    border: none;
+    border-radius: 30px;
+    background:black
+}
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 5px 10px blue;
+}
+
+
+.dark {
+    background: #222;
+    color: white;
+}
+
+.dark .card {
+    background: #333;
+    color: white;
+}
+
+.dark .header {
+    background: #111;
+}
+
+.dark button {
+    background: orange;
+}
+
+
+
+#todoList{
+    margin-top:15px;
+    list-style:none;
+    padding:0;
+}
+
+#todoList li{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f2f2f2;
+    padding:8px;
+    margin:8px 0;
+    border-radius:8px;
+}
+
+#todoList button{
+    background:red;
+    color:blue;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+
+input,
+textarea{
+
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+
+}
+
+.card button{
+
+    margin-top:10px;
+    padding:8px 15px;
+    cursor:pointer;
+
+}
+
+ul{
+
+    margin-top:15px;
+
+}
+
+li{
+
+    display:flex;
+    justify-content:space-between;
+    margin:8px 0;
+
+}
+
+.card{
+
+background:lightcoral;
+
+border-radius:15px;
+
+padding:20px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+button{
+
+padding:10px 18px;
+
+border:none;
+
+border-radius:8px;
+
+cursor:pointer;
+
+transition:.3s;
+color: white;
+background-color: blue;
+
+}
+
+button:hover{
+
+transform:scale(1.05);
+
+}
+
+input{
+
+padding:10px;
+
+border-radius:8px;
+
+border:1px solid gray;
+
+outline:none;
+
+}
+
+ul li{
+
+display:flex;
+
+justify-content:space-between;
+
+margin-top:10px;
+
+background:#f3f3f3;
+
+padding:10px;
+
+border-radius:8px;
+
+}
+
+.dark{
+
+background:#121212;
+
+color:white;
+
+}
+
+.dark .card{
+
+background:#1e1e1e;
+
+color:white;
+
+}
